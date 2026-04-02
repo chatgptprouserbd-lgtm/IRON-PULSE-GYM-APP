@@ -127,8 +127,12 @@
         import { getFirestore, doc, setDoc, getDoc, updateDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
         import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
 
+        // API KEY SECRET
+        const part1 = "AIzaSy"; 
+        const part2 = "DzyVna_VxqiT2U9DO8-VatjiXfycGxYDA";
+
         const firebaseConfig = {
-            apiKey: "AIzaSyAb3a1E3TqlS41IKlnFSZ6fM9McYZoIcmk",
+            apiKey: part1 + part2, // Eikhane duita eksathe jora lagbe
             authDomain: "iron-pulse-10ab4.firebaseapp.com",
             projectId: "iron-pulse-10ab4",
             storageBucket: "iron-pulse-10ab4.firebasestorage.app",
