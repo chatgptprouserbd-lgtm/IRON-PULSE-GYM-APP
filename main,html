@@ -128,7 +128,7 @@
         import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
 
         const firebaseConfig = {
-            apiKey: "AIzaSyD3zUtnbl5yrhztIXCJJawSLAM653q7tSg",
+            apiKey: localStorage.getItem('firebase_key')
             authDomain: "iron-pulse-10ab4.firebaseapp.com",
             projectId: "iron-pulse-10ab4",
             storageBucket: "iron-pulse-10ab4.firebasestorage.app",
